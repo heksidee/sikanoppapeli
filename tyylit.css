@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to right, rgb(0, 153, 255), rgb(255, 187, 0));
+}
+header {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+#aloita {
+    margin-top: 20px;
+}
+.pelaajat {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.tulostaulunpelaajat {
+    line-height: 1;
+}
+.boldattunimi {
+    font-weight: bold;
+    line-height: 0.7;
+}
+
+@media (max-width: 576px) {
+    img {
+        width: 60px;
+        height: auto;
+        margin: 6px;
+    }
+    .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
