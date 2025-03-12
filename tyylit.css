@@ -6,6 +6,9 @@ header {
     font-size: xx-large;
     margin-bottom: 10px;
 }
+input {
+   max-width: 130px;
+}
 #aloita {
     margin-top: 20px;
 }
